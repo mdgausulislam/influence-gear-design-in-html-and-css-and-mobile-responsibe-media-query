@@ -19,7 +19,8 @@
     margin: 0px 120px;
     margin-bottom: 50px;
 }
-.navbar h2{
+
+.navbar h2 {
     font-size: 24px;
     font-weight: 700;
     color: #3A3A3A;
@@ -30,7 +31,8 @@
     align-items: center;
     gap: 34px;
 }
-.navbar-menu-list li a{
+
+.navbar-menu-list li a {
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
@@ -68,7 +70,8 @@
     background-color: #E02C6D;
     border: none;
 }
-.banner-info i{
+
+.banner-info i {
     padding-left: 8px;
 }
 
@@ -76,9 +79,10 @@
 .banner-img img {
     height: 414px;
     width: 440px;
-  
+
 }
-.img-color{
+
+.img-color {
     border: 3px solid var(--brand-purple-100, #F1E4FF);
     padding-left: 2px;
     padding-top: 30px;
@@ -87,9 +91,91 @@
     border-radius: 100%;
 
 }
-.shopping-website-list{
+
+.shopping-website-list {
     display: grid;
-    grid-template-columns: repeat(7,1fr);
+    grid-template-columns: repeat(7, 1fr);
     margin: 69px 165px;
     grid-row-gap: 60px;
+}
+
+.fa-star {
+    font-size: 11px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+.product-star span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+    font-family: Roboto;
+}
+
+.fa-star.filled {
+    color: var(--orange-60, #FB8200);
+}
+
+.popular-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.picture-list img {
+    width: 300px;
+    height: 256px;
+
+}
+
+/* .picture-list{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 17px;
+    margin-bottom: 16px;
+    padding-bottom: 203px;
+    border-radius: 5px;
+    border: 2px solid red;
+}  */
+/* .collection-item{
+   width: 329px;
+   height: 476px;
+}  */
+
+.Popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 197px;
+    grid-row-gap:30px;
+    grid-column-gap:30px;
+}
+.collection-item {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-right: 15px;
+} 
+
+.product-title h1 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 16px;
+    color: var(--text-gray-900, #18191F);
+}
+
+.product-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    padding-top: 6px;
+    font-weight: 400;
+}
+
+.product-description{
+    padding-top: 3px;
+    padding-bottom: 17px;
+    line-height: 143%;
 }
