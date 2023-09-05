@@ -179,3 +179,14 @@
     padding-bottom: 17px;
     line-height: 143%;
 }
+.see-more p{
+    margin-left: 1144px;
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more i{
+    font-size: 16px;
+    padding-left: 8px;
+}
