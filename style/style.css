@@ -214,3 +214,24 @@
     .feature-info i{
         padding-left: 8px;
     }
+    .footer-info{
+        margin-top: 100px;
+        background-color: #0A0826;
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+        color: #FFF;
+    }
+    .footer-title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .footer-copyright,.footer-right{
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 3px;
+    }
+    .footers-icon i{
+        padding-top: 17px;
+        padding-left:16px;
+    }
